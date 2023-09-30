@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <header>
+        <div class="container">
+            <div class="row justify-between">
+                <div class="logo">
+                    <a href="#">LOGO</a>
+                </div>
+                <div class="menu">
+                    <ul class="row">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Protfolio</a>
+                        </li>
+                        <li>
+                            <a href="#">Pages</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="toggle">
+                    <a href="#">Toggle</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <button class="add">
+        For Add Class
+    </button>
+    <button class="remove">
+        For Remove Class
+    </button>
+    <button class="toggle1">
+        For Toggle Class
+    </button>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint exercitationem quos reprehenderit! Vero, adipisci cum? Nostrum, autem sunt provident quam ab excepturi quo veniam necessitatibus! Est nam in praesentium voluptates placeat voluptate a quaerat possimus ab, facilis neque voluptatum, sapiente similique temporibus qui sequi accusantium quis assumenda voluptatibus autem modi quae perferendis. Illum magni optio accusamus, unde in minus omnis ducimus voluptatibus, iure inventore eum ea amet beatae. Laudantium rerum earum animi ipsum corporis odio recusandae maxime modi voluptatum ipsam inventore repellat enim harum tempore quo exercitationem itaque eaque veritatis praesentium ex, quis qui dignissimos. Explicabo, distinctio nostrum sed voluptatum perspiciatis recusandae exercitationem assumenda cupiditate expedita dolorem ab, beatae nulla deleniti aperiam necessitatibus quasi animi consequuntur eius dolores impedit doloremque! Modi perferendis nisi voluptatibus? Laboriosam debitis mollitia quo laudantium nesciunt aliquam blanditiis commodi est ad quos nam molestias, a maiores molestiae excepturi. Officiis ex, deleniti et magni inventore necessitatibus excepturi optio magnam fuga facere debitis laboriosam ratione tempora beatae maxime ut, dignissimos assumenda cum modi voluptatem reiciendis placeat. Nihil consequuntur excepturi reprehenderit expedita iusto architecto odio, perferendis dolore, repudiandae voluptas officia laborum non nostrum delectus atque cum aspernatur tenetur nisi. Facere, fugit distinctio reprehenderit, sint nobis dolore animi labore magnam iure beatae omnis iusto cum nihil sed. Sed ea itaque quasi sunt qui repellat, totam quidem eaque eveniet velit recusandae consequuntur perspiciatis, voluptate quas culpa a. Illum ducimus molestias vero vel distinctio recusandae assumenda atque rerum delectus nisi alias architecto, eaque quibusdam laboriosam. Voluptas veritatis temporibus eligendi illum, sunt in, ducimus natus tempora minus obcaecati voluptatum, accusantium excepturi dolorem perferendis animi consectetur cumque esse maiores dolores. Iste quod nam perspiciatis sint, dignissimos saepe aliquam officia doloribus non tenetur quas nemo, minus vero id! Dolores ea amet quis numquam sequi architecto eveniet distinctio facilis. Commodi in voluptatum, laborum nulla aliquid autem rem, eligendi quam natus maxime eos dolore omnis laboriosam ipsum ad repellendus placeat aut? Incidunt, est distinctio. Id natus labore repudiandae deserunt. Optio perspiciatis ea incidunt quas ullam, esse libero repellendus magnam sed. Aliquam officiis ut eaque assumenda provident facilis, quidem dolorum quia ratione animi illo culpa fuga cum repellendus quis inventore molestias accusantium sit. Quaerat, neque dolor illum ipsam autem dicta nostrum beatae maiores vero, minima temporibus iure modi totam. Explicabo suscipit praesentium ea esse voluptas fuga, nostrum vero dolorem quo blanditiis accusantium laboriosam harum corrupti, veniam facere. Eius, et. Blanditiis voluptate totam numquam. Quaerat voluptate adipisci eos, doloremque quam nemo, nulla ut consectetur ducimus facilis expedita earum, magni dignissimos quasi sit. Iste voluptatem quia fugit odio aspernatur distinctio! Rerum architecto distinctio, qui obcaecati, sapiente pariatur repellendus, dolores odio perferendis atque cupiditate. Odio repellendus iure atque amet, consequuntur aliquam. Dolore, impedit! Cumque distinctio tenetur obcaecati debitis tempore fugiat repellendus facilis repudiandae expedita sapiente et voluptas adipisci voluptatem, molestiae eveniet ducimus dolore nesciunt aspernatur ad totam nemo? Aut totam dignissimos, temporibus libero quia voluptatum est corrupti omnis, quis repellat recusandae maiores dicta vel reprehenderit ea labore iusto necessitatibus maxime expedita molestias? Alias quis dicta fugiat dolorem iure, sint pariatur quas.</p>
+
+
+
+    <script src="js/jquary.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            $(".toggle").click(function(){
+                $(".menu").slideToggle(1000);
+            });
+
+
+            // $(".add").click(function(){
+            //     $("p").addClass("edit");
+            // });
+            // $(".remove").click(function(){
+            //     $("p").removeClass("edit");
+            // });
+            // $(".toggle1").click(function(){
+            //     $("p").toggleClass("edit");
+            // });
+
+
+
+            $(".add").click(function(){
+                $("p").slideDown(1000);
+            });
+            $(".remove").click(function(){
+                $("p").slideUp(1000);
+            });
+            $(".toggle1").click(function(){
+                $("p").slideToggle(1000);
+            })
+
+
+
+
+
+        })
+    </script>
+</body>
+</html>
